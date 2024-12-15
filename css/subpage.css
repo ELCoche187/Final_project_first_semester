@@ -269,23 +269,23 @@ footer {
 
 @media (max-width: 840px) {
     .projects-grid {
-        flex-direction: column; /* Stack the cards vertically */
-        gap: 10px; /* Reduce the gap */
+        flex-direction: column; 
+        gap: 10px; 
     }
 
     .project-card {
-        width: 100%; /* Make the cards take full width */
-        height: fit-content; /* Adjust height for smaller screens */
+        width: 100%; 
+        height: fit-content; 
     }
 
     .project-label {
-        writing-mode: horizontal-tb; /* Make the text horizontal */
+        writing-mode: horizontal-tb; 
         text-orientation: mixed;
         padding: 5px 10px;
-        height: auto; /* Adjust label size */
+        height: auto; 
         left: 0;
         width: 100%;
-        text-align: center; /* Center the text */
+        text-align: center; 
     }
 }
 
