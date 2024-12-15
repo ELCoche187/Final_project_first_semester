@@ -205,6 +205,7 @@
     top: 0;
     left: 0;
     padding: 10px;
+    margin: 0px 10px 0px 0px;
     writing-mode: vertical-rl;
     text-orientation: upright;
     font-size: 1rem;
@@ -238,14 +239,6 @@
     font-weight: bold;
     font-size: 1rem;
     text-transform: uppercase;
-}
-
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
 /* Call to Action Section */
@@ -376,3 +369,18 @@ footer {
     color: orange;
 }
 
+@media (max-width: 686px) {
+    
+    .hero-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .petition-image {
+        height: 600px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+
+}
